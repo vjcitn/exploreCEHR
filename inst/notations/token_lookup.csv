@@ -1,0 +1,123 @@
+token,description,detail,domain
+I10,Essential hypertension,,condition
+I25.10,Chronic ischemic heart disease,,condition
+I50.9,Heart failure,,condition
+I48.91,Atrial fibrillation,,condition
+I21.9,Acute MI,,condition
+I63.9,Cerebral infarction,,condition
+I73.9,Peripheral vascular disease,,condition
+E11.9,Type 2 diabetes,,condition
+E78.5,Hyperlipidemia,,condition
+E66.9,Obesity,,condition
+E03.9,Hypothyroidism,,condition
+E11.65,T2DM with hyperglycemia,,condition
+E11.40,T2DM with diabetic neuropathy,,condition
+E11.319,T2DM with diabetic retinopathy,,condition
+N18.3,CKD stage 3,,condition
+N18.4,CKD stage 4,,condition
+N18.6,End-stage renal disease,,condition
+J44.1,COPD with exacerbation,,condition
+J45.41,Moderate persistent asthma,,condition
+G47.33,Obstructive sleep apnea,,condition
+K21.0,GERD with esophagitis,,condition
+K57.30,Diverticulosis of large intestine,,condition
+K76.0,Fatty liver disease,,condition
+M17.11,Primary osteoarthritis right knee,,condition
+M54.5,Low back pain,,condition
+M10.9,Gout unspecified,,condition
+M81.0,Osteoporosis,,condition
+F32.9,Major depressive disorder,,condition
+F41.1,Generalized anxiety disorder,,condition
+F10.10,Alcohol use disorder mild,,condition
+C50.912,Breast cancer,,condition
+C61,Prostate cancer,,condition
+C18.9,Colorectal cancer,,condition
+C34.90,Lung cancer,,condition
+G30.9,Alzheimer disease,,condition
+G20,Parkinson disease,,condition
+J06.9,Acute upper respiratory infection,,condition
+J18.9,Pneumonia,,condition
+RX:lisinopril,Lisinopril,ACE inhibitor,drug
+RX:amlodipine,Amlodipine,Calcium channel blocker,drug
+RX:metoprolol,Metoprolol succinate,Beta blocker,drug
+RX:losartan,Losartan,ARB,drug
+RX:hydrochlorothiazide,Hydrochlorothiazide,Thiazide diuretic,drug
+RX:furosemide,Furosemide,Loop diuretic,drug
+RX:spironolactone,Spironolactone,Aldosterone antagonist,drug
+RX:aspirin,Aspirin 81mg,Antiplatelet,drug
+RX:clopidogrel,Clopidogrel,Antiplatelet,drug
+RX:apixaban,Apixaban,Anticoagulant (DOAC),drug
+RX:warfarin,Warfarin,Anticoagulant (VKA),drug
+RX:atorvastatin,Atorvastatin,Statin,drug
+RX:rosuvastatin,Rosuvastatin,Statin,drug
+RX:ezetimibe,Ezetimibe,Cholesterol absorb. inhib,drug
+RX:metformin,Metformin,Biguanide,drug
+RX:glipizide,Glipizide,Sulfonylurea,drug
+RX:sitagliptin,Sitagliptin,DPP-4 inhibitor,drug
+RX:empagliflozin,Empagliflozin,SGLT-2 inhibitor,drug
+RX:semaglutide,Semaglutide,GLP-1 agonist,drug
+RX:insulin_glargine,Insulin glargine,Basal insulin,drug
+RX:albuterol,Albuterol inhaler,SABA,drug
+RX:fluticasone,Fluticasone inhaler,ICS,drug
+RX:tiotropium,Tiotropium inhaler,LAMA,drug
+RX:omeprazole,Omeprazole,PPI,drug
+RX:pantoprazole,Pantoprazole,PPI,drug
+RX:levothyroxine,Levothyroxine,Thyroid hormone,drug
+RX:sertraline,Sertraline,SSRI,drug
+RX:escitalopram,Escitalopram,SSRI,drug
+RX:bupropion,Bupropion SR,NDRI,drug
+RX:lorazepam,Lorazepam,Benzodiazepine,drug
+RX:acetaminophen,Acetaminophen,Analgesic,drug
+RX:ibuprofen,Ibuprofen,NSAID,drug
+RX:gabapentin,Gabapentin,Anticonvulsant/neuropathic,drug
+RX:alendronate,Alendronate,Bisphosphonate,drug
+RX:calcium_vit_d,Calcium + Vitamin D3,Supplement,drug
+RX:allopurinol,Allopurinol,Xanthine oxidase inhibitor,drug
+RX:potassium_cl,Potassium chloride,Electrolyte supplement,drug
+PR:cbc,Complete blood count,Laboratory,procedure
+PR:cmp,Comprehensive metabolic panel,Laboratory,procedure
+PR:bmp,Basic metabolic panel,Laboratory,procedure
+PR:hba1c,Hemoglobin A1c,Laboratory,procedure
+PR:lipid_panel,Fasting lipid panel,Laboratory,procedure
+PR:tsh,Thyroid stimulating hormone,Laboratory,procedure
+PR:urinalysis,Urinalysis with reflex,Laboratory,procedure
+PR:urine_microalb,Urine microalbumin/creatinine ratio,Laboratory,procedure
+PR:pt_inr,Prothrombin time / INR,Laboratory,procedure
+PR:bnp,BNP or NT-proBNP,Laboratory,procedure
+PR:troponin,Troponin I,Laboratory,procedure
+PR:psa,Prostate specific antigen,Laboratory,procedure
+PR:ekg,12-lead electrocardiogram,Cardiac,procedure
+PR:echo,Transthoracic echocardiogram,Cardiac,procedure
+PR:cardiac_cath,Cardiac catheterization,Cardiac,procedure
+PR:pci,Percutaneous coronary intervention,Cardiac,procedure
+PR:chest_xray,Chest X-ray 2 views,Imaging,procedure
+PR:ct_chest,CT chest without contrast,Imaging,procedure
+PR:ct_abdomen,CT abdomen/pelvis,Imaging,procedure
+PR:mri_brain,MRI brain with/without contrast,Imaging,procedure
+PR:abdominal_us,Abdominal ultrasound,Imaging,procedure
+PR:renal_us,Renal ultrasound,Imaging,procedure
+PR:mammogram,Screening mammogram,Preventive,procedure
+PR:colonoscopy,Colonoscopy with biopsy,Preventive,procedure
+PR:dexa,Bone density DEXA scan,Preventive,procedure
+PR:abi,Ankle-brachial index,Vascular,procedure
+PR:spirometry,Pulmonary function test,Respiratory,procedure
+PR:dialysis_HD,Hemodialysis session,Renal,procedure
+PR:knee_injection,Corticosteroid injection knee,Musculoskeletal,procedure
+[VS],Visit start boundary,Structure,structure
+[VE],Visit end boundary,Structure,structure
+[VT:OP],Outpatient visit type,Structure,structure
+[VT:IP],Inpatient visit type,Structure,structure
+[VT:ED],Emergency department visit type,Structure,structure
+[ATT:D<n>],Inter-visit gap of n days (1-1080),Time,structure
+[ATT:LT],Inter-visit gap > 1080 days (long term),Time,structure
+[IATT:D<n>],Inpatient within-stay day boundary,Time,structure
+[DC:HOME],Discharge to home,Discharge,structure
+[DC:HOME_HEALTH],Discharge to home health,Discharge,structure
+[DC:SNF],Discharge to skilled nursing facility,Discharge,structure
+[DC:REHAB],Discharge to rehabilitation facility,Discharge,structure
+[DC:HOSPICE],Discharge to hospice,Discharge,structure
+[DC:TRANSFER],Transfer to another facility,Discharge,structure
+[EOS],End of sequence,Structure,structure
+<PAD>,Padding token,Special,structure
+<UNK>,Unknown / out-of-vocabulary token,Special,structure
+<MASK>,Mask token (reserved),Special,structure

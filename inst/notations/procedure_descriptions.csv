@@ -1,0 +1,30 @@
+token,description,category
+PR:cbc,Complete blood count,Laboratory
+PR:cmp,Comprehensive metabolic panel,Laboratory
+PR:bmp,Basic metabolic panel,Laboratory
+PR:hba1c,Hemoglobin A1c,Laboratory
+PR:lipid_panel,Fasting lipid panel,Laboratory
+PR:tsh,Thyroid stimulating hormone,Laboratory
+PR:urinalysis,Urinalysis with reflex,Laboratory
+PR:urine_microalb,Urine microalbumin/creatinine ratio,Laboratory
+PR:pt_inr,Prothrombin time / INR,Laboratory
+PR:bnp,BNP or NT-proBNP,Laboratory
+PR:troponin,Troponin I,Laboratory
+PR:psa,Prostate specific antigen,Laboratory
+PR:ekg,12-lead electrocardiogram,Cardiac
+PR:echo,Transthoracic echocardiogram,Cardiac
+PR:cardiac_cath,Cardiac catheterization,Cardiac
+PR:pci,Percutaneous coronary intervention,Cardiac
+PR:chest_xray,Chest X-ray 2 views,Imaging
+PR:ct_chest,CT chest without contrast,Imaging
+PR:ct_abdomen,CT abdomen/pelvis,Imaging
+PR:mri_brain,MRI brain with/without contrast,Imaging
+PR:abdominal_us,Abdominal ultrasound,Imaging
+PR:renal_us,Renal ultrasound,Imaging
+PR:mammogram,Screening mammogram,Preventive
+PR:colonoscopy,Colonoscopy with biopsy,Preventive
+PR:dexa,Bone density DEXA scan,Preventive
+PR:abi,Ankle-brachial index,Vascular
+PR:spirometry,Pulmonary function test,Respiratory
+PR:dialysis_HD,Hemodialysis session,Renal
+PR:knee_injection,Corticosteroid injection knee,Musculoskeletal

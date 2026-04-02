@@ -1,0 +1,19 @@
+token,description,category
+[VS],Visit start boundary,Structure
+[VE],Visit end boundary,Structure
+[VT:OP],Outpatient visit type,Structure
+[VT:IP],Inpatient visit type,Structure
+[VT:ED],Emergency department visit type,Structure
+[ATT:D<n>],Inter-visit gap of n days (1-1080),Time
+[ATT:LT],Inter-visit gap > 1080 days (long term),Time
+[IATT:D<n>],Inpatient within-stay day boundary,Time
+[DC:HOME],Discharge to home,Discharge
+[DC:HOME_HEALTH],Discharge to home health,Discharge
+[DC:SNF],Discharge to skilled nursing facility,Discharge
+[DC:REHAB],Discharge to rehabilitation facility,Discharge
+[DC:HOSPICE],Discharge to hospice,Discharge
+[DC:TRANSFER],Transfer to another facility,Discharge
+[EOS],End of sequence,Structure
+<PAD>,Padding token,Special
+<UNK>,Unknown / out-of-vocabulary token,Special
+<MASK>,Mask token (reserved),Special

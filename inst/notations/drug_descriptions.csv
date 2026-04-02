@@ -1,0 +1,38 @@
+token,generic_name,drug_class,therapeutic_area
+RX:lisinopril,Lisinopril,ACE inhibitor,Cardiovascular
+RX:amlodipine,Amlodipine,Calcium channel blocker,Cardiovascular
+RX:metoprolol,Metoprolol succinate,Beta blocker,Cardiovascular
+RX:losartan,Losartan,ARB,Cardiovascular
+RX:hydrochlorothiazide,Hydrochlorothiazide,Thiazide diuretic,Cardiovascular
+RX:furosemide,Furosemide,Loop diuretic,Cardiovascular
+RX:spironolactone,Spironolactone,Aldosterone antagonist,Cardiovascular
+RX:aspirin,Aspirin 81mg,Antiplatelet,Cardiovascular
+RX:clopidogrel,Clopidogrel,Antiplatelet,Cardiovascular
+RX:apixaban,Apixaban,Anticoagulant (DOAC),Cardiovascular
+RX:warfarin,Warfarin,Anticoagulant (VKA),Cardiovascular
+RX:atorvastatin,Atorvastatin,Statin,Lipid-lowering
+RX:rosuvastatin,Rosuvastatin,Statin,Lipid-lowering
+RX:ezetimibe,Ezetimibe,Cholesterol absorb. inhib,Lipid-lowering
+RX:metformin,Metformin,Biguanide,Diabetes
+RX:glipizide,Glipizide,Sulfonylurea,Diabetes
+RX:sitagliptin,Sitagliptin,DPP-4 inhibitor,Diabetes
+RX:empagliflozin,Empagliflozin,SGLT-2 inhibitor,Diabetes
+RX:semaglutide,Semaglutide,GLP-1 agonist,Diabetes
+RX:insulin_glargine,Insulin glargine,Basal insulin,Diabetes
+RX:albuterol,Albuterol inhaler,SABA,Respiratory
+RX:fluticasone,Fluticasone inhaler,ICS,Respiratory
+RX:tiotropium,Tiotropium inhaler,LAMA,Respiratory
+RX:omeprazole,Omeprazole,PPI,Gastrointestinal
+RX:pantoprazole,Pantoprazole,PPI,Gastrointestinal
+RX:levothyroxine,Levothyroxine,Thyroid hormone,Endocrine
+RX:sertraline,Sertraline,SSRI,Mental health
+RX:escitalopram,Escitalopram,SSRI,Mental health
+RX:bupropion,Bupropion SR,NDRI,Mental health
+RX:lorazepam,Lorazepam,Benzodiazepine,Mental health
+RX:acetaminophen,Acetaminophen,Analgesic,Pain
+RX:ibuprofen,Ibuprofen,NSAID,Pain
+RX:gabapentin,Gabapentin,Anticonvulsant/neuropathic,Pain
+RX:alendronate,Alendronate,Bisphosphonate,Bone
+RX:calcium_vit_d,Calcium + Vitamin D3,Supplement,Bone
+RX:allopurinol,Allopurinol,Xanthine oxidase inhibitor,Rheumatology
+RX:potassium_cl,Potassium chloride,Electrolyte supplement,Renal

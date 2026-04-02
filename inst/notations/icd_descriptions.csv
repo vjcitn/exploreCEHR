@@ -1,0 +1,39 @@
+code,description,domain
+I10,Essential hypertension,condition
+I25.10,Chronic ischemic heart disease,condition
+I50.9,Heart failure,condition
+I48.91,Atrial fibrillation,condition
+I21.9,Acute MI,condition
+I63.9,Cerebral infarction,condition
+I73.9,Peripheral vascular disease,condition
+E11.9,Type 2 diabetes,condition
+E78.5,Hyperlipidemia,condition
+E66.9,Obesity,condition
+E03.9,Hypothyroidism,condition
+E11.65,T2DM with hyperglycemia,condition
+E11.40,T2DM with diabetic neuropathy,condition
+E11.319,T2DM with diabetic retinopathy,condition
+N18.3,CKD stage 3,condition
+N18.4,CKD stage 4,condition
+N18.6,End-stage renal disease,condition
+J44.1,COPD with exacerbation,condition
+J45.41,Moderate persistent asthma,condition
+G47.33,Obstructive sleep apnea,condition
+K21.0,GERD with esophagitis,condition
+K57.30,Diverticulosis of large intestine,condition
+K76.0,Fatty liver disease,condition
+M17.11,Primary osteoarthritis right knee,condition
+M54.5,Low back pain,condition
+M10.9,Gout unspecified,condition
+M81.0,Osteoporosis,condition
+F32.9,Major depressive disorder,condition
+F41.1,Generalized anxiety disorder,condition
+F10.10,Alcohol use disorder mild,condition
+C50.912,Breast cancer,condition
+C61,Prostate cancer,condition
+C18.9,Colorectal cancer,condition
+C34.90,Lung cancer,condition
+G30.9,Alzheimer disease,condition
+G20,Parkinson disease,condition
+J06.9,Acute upper respiratory infection,condition
+J18.9,Pneumonia,condition
