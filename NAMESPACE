@@ -2,6 +2,11 @@
 
 export(browse_events)
 export(browse_notation)
+export(demotrace_path)
 export(events_path)
 export(notation_path)
+export(plot_trace)
+export(sequences_path)
+export(view_sequences)
 import(DT)
+import(lubridate)

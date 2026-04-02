@@ -28,16 +28,60 @@ similar models *de novo*.
 
 The flavor of the information to be processed is sketched here.
 
-A "vocabulary" is defined.
+# Vocabulary for health event series
+
+A "vocabulary" is defined.  Some semantics of annotations can
+be gleaned from comments in the simulation program:
+
+```
+simulate_cehr_gpt.py
+====================
+Generate 100 K realistic longitudinal health event trajectories in the
+CEHR-GPT token-sequence format.
+
+Token-sequence schema (per patient)
+-------------------------------------
+  START_YEAR:YYYY  AGE:XX  GENDER:M/F  RACE:<race>
+  [VS] [VT:OP|IP|ED]  concept…  [VE]
+  [ATT:D<n>]      <- inter-visit gap (n = 1-1080 days)
+  [ATT:LT]        <- gap > 1080 days
+  ...
+  [EOS]
+
+Inpatient visits additionally contain intra-visit day tokens [IATT:D<n>]
+and end with a discharge-facility token [DC:<facility>].
+
+Outputs  (./output/)
+---------------------
+  sequences.parquet  -- one row per patient; full token sequence as string
+  events.parquet     -- MEDS-style long table (subject_id | time | code | domain)
+  summary_stats.json -- prevalence, visit counts, sequence-length stats
+```
+
+`browse_notation` provides additional details:
 
 ```{r lkvoc, message=FALSE}
 library(exploreCEHR)
 browse_notation()
 ```
 
-Patient's event histories are tabulated.  This table is limited to
+# Elementary tabulation of event series
+
+Patient's event histories are tabulated.  The table in this vignette is limited to
 5000 records; `r nrow(arrow::read_parquet(events_path()))` simulated records are available.
 
 ```{r lkev}
 browse_events()
+```
+
+# Data structure for modeling
+
+Event sequences are reformatted to per-patient records.
+
+In the following we break up the string for one patient's
+visits to isolate a single visit and the prescriptions
+and conditions noted.
+
+```{r lkseqd}
+example(view_sequences)
 ```

@@ -1,0 +1,40 @@
+---
+title: "Resource use in training"
+author: "Vincent J. Carey, stvjc at channing.harvard.edu"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Resource use in training}
+  %\VignetteEncoding{UTF-8}
+output:
+  BiocStyle::html_document:
+    highlight: pygments
+    number_sections: yes
+    theme: united
+    toc: yes
+---
+
+# Simple measurement
+
+The `nvidia-smi` utility can record aspects of GPU utilization.
+We have used
+
+```
+nvidia-smi --query-gpu=timestamp,\
+utilization.gpu,\
+utilization.memory,\
+memory.used,memory.free,memory.total,\
+power.draw,temperature.gpu --format=csv --loop=1 > gpu_trace.csv &
+```
+
+to collect data from an example run.  One kills the associated
+process when the run completes.
+
+The data are plotted in an elementary way:
+
+```{r lkpl, message=FALSE}
+par(mar=c(4,3,2,2))
+library(exploreCEHR)
+example(plot_trace, ask=FALSE)
+```
+
