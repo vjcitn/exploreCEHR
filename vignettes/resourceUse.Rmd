@@ -30,7 +30,8 @@ power.draw,temperature.gpu --format=csv --loop=1 > gpu_trace.csv &
 to collect data from an example run.  One kills the associated
 process when the run completes.
 
-The data are plotted in an elementary way:
+The data from a test run with 5000 patients (average 1600 events
+per patient, model has 4 heads, embedding dimension 128) are plotted in an elementary way:
 
 ```{r lkpl, message=FALSE}
 par(mar=c(4,3,2,2))
@@ -42,7 +43,7 @@ example(plot_trace, ask=FALSE)
 
 An illustration of usage as we explore different
 numbers of heads and embedding sizes has been
-obtained.
+obtained.  Here the number of patients is 10000 with mean number of events per patient 1800.
 
 GPU memory consumption:
 
