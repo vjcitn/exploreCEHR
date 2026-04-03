@@ -38,3 +38,21 @@ library(exploreCEHR)
 example(plot_trace, ask=FALSE)
 ```
 
+# Measurements from a partial parameter sweep
+
+An illustration of usage as we explore different
+numbers of heads and embedding sizes has been
+obtained.
+
+GPU memory consumption:
+
+```{r dospecial, message=FALSE}
+library(ggplot2)
+source(system.file("performance", "merge.R", package="exploreCEHR"))
+vramplot
+```
+
+GPU fractional utilization:
+```{r lkfrac}
+utilplot
+```

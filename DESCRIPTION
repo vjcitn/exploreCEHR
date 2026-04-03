@@ -1,6 +1,6 @@
 Package: exploreCEHR
 Title: R package for exploring an EHR-based autoregressive transformer from Pang et al. arXiv:2402.04400
-Version: 0.0.1
+Version: 0.0.2
 Authors@R:
     c(person(given = "Vince",
            family = "Carey",

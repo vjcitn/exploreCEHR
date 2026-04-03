@@ -24,7 +24,7 @@ plot_trace = function(pa) {
   nc = ncol(dat)
   dat[,1] = as_datetime(dat[,1])
   for (i in seq(2,nc)) dat[,i] = getnum(dat[,i])
-  par(mfrow=c(3,2))
+  par(mfrow=c(3,2), mar=c(4,5,2,2))
   tim = as_datetime(dat[,1])
   todo = c(2,3,4,5,7,8)
   for (i in todo) plot(tim, dat[,i], type="l", ylab=dn[i], xlab="clock time")
