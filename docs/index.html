@@ -33,7 +33,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">exploreCEHR</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.0.1</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.0.2</span>
       </span>
     </div>
 
@@ -44,6 +44,18 @@
 </li>
 <li>
   <a href="reference/index.html">Reference</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Articles
+
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+<li>
+      <a href="articles/resourceUse.html">Resource use in training</a>
+    </li>
+  </ul>
 </li>
       </ul>
 <ul class="nav navbar-nav navbar-right">
@@ -68,7 +80,18 @@
 <div class="section level1">
 <div class="page-header"><h1 id="explorecehr">exploreCEHR<a class="anchor" aria-label="anchor" href="#explorecehr"></a>
 </h1></div>
-<p>Package for investigating an EHR-based transformer for prediction of health events</p>
+<p>This is an R package for investigating an EHR-based transformer for prediction of health events.</p>
+<p>The CEHR-GPT model is described in this <a href="https://arxiv.org/abs/2402.04400" class="external-link">arxiv paper</a> by Pang et al.</p>
+<p>The associated <a href="https://github.com/knatarajan-lab/cehrgpt" class="external-link">github repo</a> is the basis for the materials in this package.</p>
+<p>A primary concern of this package is development of tooling for estimating GPU resource usage needed to train models of this type.</p>
+<p>In short, given patient event series like</p>
+<div class="figure">
+<img src="reference/figures/pattab.png" alt=""><p class="caption">seriesview</p>
+</div>
+<p>we want to record the usage of training models with various structures, e.g.:</p>
+<div class="figure">
+<img src="reference/figures/gpuuse.png" alt=""><p class="caption">usageview</p>
+</div>
 </div>
   </div>
 

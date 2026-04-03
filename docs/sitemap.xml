@@ -2,12 +2,17 @@
 <url><loc>/404.html</loc></url>
 <url><loc>/articles/exploreCEHR.html</loc></url>
 <url><loc>/articles/index.html</loc></url>
+<url><loc>/articles/resourceUse.html</loc></url>
 <url><loc>/authors.html</loc></url>
 <url><loc>/index.html</loc></url>
 <url><loc>/reference/browse_events.html</loc></url>
 <url><loc>/reference/browse_notation.html</loc></url>
+<url><loc>/reference/demotrace_path.html</loc></url>
 <url><loc>/reference/events_path.html</loc></url>
 <url><loc>/reference/index.html</loc></url>
 <url><loc>/reference/notation_path.html</loc></url>
+<url><loc>/reference/plot_trace.html</loc></url>
+<url><loc>/reference/sequences_path.html</loc></url>
+<url><loc>/reference/view_sequences.html</loc></url>
 </urlset>
 
